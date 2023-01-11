@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "f020400748b508bc39852a91917d3e1e51c4e52a307862ab00ca37d8abb33664"
+build_start_time: [1671701588, 993909835]
+build_end_time: [1671701596, 479507923]
+inputs:
+  "/Users/derrinbeekman/Documents_Mac/kenteken-app/macos/Flutter/GeneratedPluginRegistrant.swift": [1671701567, 941139221]
+  "/Users/derrinbeekman/Documents_Mac/kenteken-app/macos/Runner/AppDelegate.swift": [1671700498, 689193725]
+  "/Users/derrinbeekman/Documents_Mac/kenteken-app/macos/Runner/MainFlutterWindow.swift": [1671700498, 688121795]
