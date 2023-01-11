@@ -164,9 +164,8 @@ Future<String> findPlate(String imagePath) async {
       "Token d150194ac06f302d3f3c0593e5383805f5fbec22";
   request.files.add(file);
   var response = await request.send();
-
-  if (response.statusCode == 201) {
     var responseString = await response.stream.bytesToString();
+  if (response.statusCode == 201) {
     var jsonResponse = jsonDecode(responseString);
     var firstItem = jsonResponse["results"][0];
     // print(firstItem["plate"]);
